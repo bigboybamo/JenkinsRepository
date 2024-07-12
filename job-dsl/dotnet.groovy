@@ -9,7 +9,6 @@ job('DotNetExample') {
         scm('H/5 * * * *')
     }
     wrappers {
-       .NET SDK('.NET Instal')
     }
     steps {
         shell("""
